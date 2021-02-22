@@ -35,7 +35,7 @@ Everything is sent over SSL Protocol.
 <img src="./images/setup.jpg" alt="My cool logo" width="350"/>
 
 ### Web Admin Panel
-Admin Panel Token will he located [HERE](https://iotpush.app/get-token)
+Admin Panel Token will be located [HERE](https://iotpush.app/get-token)
 
 <img src="./images/setup2.png" alt="My cool logo" width="350"/>
 
