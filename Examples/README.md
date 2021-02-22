@@ -11,6 +11,7 @@ char token[] = "a8d4cffa289b8979f51f02936acbed49595f26";
 ```
 
 ## Static Request
+### Static Request Is Great For Sensors that dont relay back dynamic or changing data such as a Motion Sensor or Door Sensor
 ```
 // ------  Static Request -------
 // Title of Notification EX: Motion Sensor
