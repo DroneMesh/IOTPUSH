@@ -43,3 +43,5 @@ char notify[] = "true";
 ```
 sendStatic();
 ```
+
+# Dynamic Request
