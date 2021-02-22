@@ -58,4 +58,5 @@ sendCustom("Temp Sensor #1","Current Temprature -5c","blue","true");
 
 
 
-
+# AVAILBLE COLORS
+## [red, blue, green, pink, purple, yellow, orange]
