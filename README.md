@@ -97,7 +97,7 @@ sendStatic();
 sendCustom("Temp Sensor #1","Current Temprature -5c","blue","true");
 ```
 1. TITLE = 'Title Of Notification'
-2. INFORMATION = 'THE SENSORS DATA YOU WANT SEND TO YOU'
+2. INFORMATION = 'THE SENSORS DATA YOU WANT SENT TO YOU'
 3. COLOR = 'Colors of notification check the list below for available Colors'
 4. SEND_ALERT_TO_PHONE = 'If you want your phone to get the notification alert set to true else false'
 
