@@ -1,5 +1,5 @@
 # IOT PUSH Documentation
-This System is designed to send push notification to your IOS and or Android Device. It also saves all your notifications to view whenever you would like. You can view your notification from either the web panel and or your phone.
+This System is designed to send push notifications to your IOS and or Android Device. It also saves all your notifications to view whenever you would like. You can view your notifications from either the web panel and or your phone.
 1. [Android APP LINK]
 2. [IOS APP LINK]
 3. [WEB Admin Panel LINK](https://iotpush.app)
