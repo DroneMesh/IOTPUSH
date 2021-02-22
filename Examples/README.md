@@ -45,3 +45,16 @@ sendStatic();
 ```
 
 # Dynamic Request
+### Dynamic Request is great if you are using something like a temprature sensor where the data is changing. To call this function is very simple and done in one line of code
+TITLE = 'Title Of Notification'
+
+INFORMATION = 'THE SENSORS DATA YOU WANT SEND TO YOU'
+
+COLOR = 'Colors of notification check the list below for available Colors'
+
+SEND_ALERT_TO_PHONE = 'If you want your phone to get the notification alert set to true else false'
+
+```
+// sendCustom("TITLE","INFORMATION","COLOR","SEND_ALERT_TO_PHONE");
+sendCustom("Temp Sensor #1","Current Temprature -5c","blue","true");
+```
