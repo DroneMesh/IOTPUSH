@@ -15,8 +15,7 @@ Everything is sent over SSL Protocol.
 
     1. Android & IOS It will be available on Home Screen
     
-![Alt text](images/setup.jpg?raw=true "Title")
 
-<img src="./images/1.jpg" alt="My cool logo" width="100" height="100"/>
+<img src="./images/1.jpg" alt="My cool logo" width="350"/>
 
     1. Admin Panel will he located [HERE](https://iotpush.app/get-token)
