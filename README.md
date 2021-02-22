@@ -23,5 +23,5 @@ Admin Panel Token will he located [HERE](https://iotpush.app/get-token)
 <img src="./images/setup2.png" alt="My cool logo" width="350"/>
 
 
-# How To Send The Notification ESP32
+# How To Send The Notification ESP32 
 1. Check out the examples folder [HERE](https://github.com/DroneMesh/IOTPUSH/tree/master/Examples)
