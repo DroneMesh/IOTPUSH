@@ -11,11 +11,13 @@ Everything is sent over SSL Protocol.
 1. Create an account through the [Android_APP]() , [IOS_APP]() or the [WebPanel](https://iotpush.app)
 2. If you would like to receive the notifiations on your phone you must have the app installed be logged in to your account
 
-## Grab Your Token
+# Grab Your Token 
 
-    1. Android & IOS It will be available on Home Screen
-    
+### Android & IOS It will be available on Home Screen
 
-<img src="./images/1.jpg" alt="My cool logo" width="350"/>
+<img src="./images/setup.jpg" alt="My cool logo" width="350"/>
 
-    1. Admin Panel will he located [HERE](https://iotpush.app/get-token)
+### Grab Your Token Admin Panel
+Admin Panel Token will he located [HERE](https://iotpush.app/get-token)
+
+<img src="./images/setup2.png" alt="My cool logo" width="350"/>
