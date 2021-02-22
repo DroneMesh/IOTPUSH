@@ -6,7 +6,7 @@ System is designed to send push notification to your IOS and or Android Device. 
 
 Everything is sent over SSL Protocol.
 # Screenshots Web Panel
-<img src="./images/admin.png" alt="My cool logo" width="350"/>
+<img src="./images/admin.PNG" alt="My cool logo" width="350"/>
 
 # Screenshots IOS & ANDROID
 <img src="./images/1.jpg" alt="My cool logo" width="100"/>
