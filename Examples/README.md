@@ -10,7 +10,7 @@ char token[] = "a8d4cffa289b8979f51f02936acbed49595f26";
 
 ```
 
-## Static Request
+# Static Request
 ### Static Request Is Great For Sensors that dont relay back dynamic or changing data such as a Motion Sensor or Door Sensor
 ```
 // ------  Static Request -------
@@ -36,4 +36,10 @@ char group[] = "1";
 /* true or false  */
 char notify[] = "true";
 // ------  END Static Request -------
+```
+## Send The Notification
+### You will want to call this function below when for example the motion detector has been trigered and it will send the static notification you have setup above
+
+```
+sendStatic();
 ```
