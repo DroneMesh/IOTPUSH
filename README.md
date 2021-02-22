@@ -9,7 +9,7 @@ Everything is sent over SSL Protocol.
 ## Getting Started
 
 1. Create an account through the [Android_APP]() , [IOS_APP]() or the [WebPanel](https://iotpush.app)
-2. If you would like to receive the notifiations on your phone you must have the app installed be and be logged in to your account
+2. If you would like to receive the notifiations on your phone you must have the app installed and be logged in to your account
 
 # Grab Your Token 
 
