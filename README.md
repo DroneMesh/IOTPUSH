@@ -17,6 +17,6 @@ Everything is sent over SSL Protocol.
     
 ![Alt text](images/setup.jpg?raw=true "Title")
 
-<img src="./images/1.jpg" alt="My cool logo" style='height:30px'/>
+<img src="./images/1.jpg" alt="My cool logo" width="100" height="100"/>
 
     1. Admin Panel will he located [HERE](https://iotpush.app/get-token)
