@@ -88,7 +88,6 @@ int pinStatePrevious  = LOW; // previous state of pin
 
 void setup() {
     pinMode(PIN_TO_SENSOR, INPUT);
-  // Don't Touch This Area Unless You Need To
   Serial.begin(115200);
   WiFi.begin(ssid, password);
   Serial.println("Connecting");

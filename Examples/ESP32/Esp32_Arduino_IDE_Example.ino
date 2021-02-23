@@ -79,7 +79,6 @@ char post[500];
 
 
 void setup() {
-  // Don't Touch This Area Unless You Need To
   Serial.begin(115200);
   WiFi.begin(ssid, password);
   Serial.println("Connecting");
