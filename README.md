@@ -38,7 +38,7 @@ Everything is sent over SSL Protocol.
 ### Web Admin Panel
 Admin Panel Token will be located [HERE](https://iotpush.app/get-token)
 
-<img src="./images/setup2.png" alt="My cool logo" width="350"/>
+<img src="./images/setup2.png" alt="My cool logo" width="500"/>
 
 
 # How To Send The Notification ESP32 
