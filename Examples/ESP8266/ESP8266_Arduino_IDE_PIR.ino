@@ -30,6 +30,10 @@
 #include <stdio.h> 
 #include <string.h> 
 
+// PIR 
+// Connect PIR sensor to PIN D1
+const int PIN_TO_SENSOR = 5;   // the pin that OUTPUT pin of sensor is connected to
+
 // Wifi Information
 const char* ssid = "YOUR WIFI ROUTER NAME";
 const char* password = "YOUR WIFI PASSWORD";
@@ -62,26 +66,11 @@ char notify[] = "true";
 // ------  END Static Request -------
 
 
-// ---  Timer if Needed
-// the following variables are unsigned longs because the time, measured in
-// milliseconds, will quickly become a bigger number than can be stored in an int.
-unsigned long lastTime = 0;
-// Timer set to 10 minutes (600000)
-//unsigned long timerDelay = 600000;
-// Set timer to 10 seconds (10000)
-unsigned long timerDelay = 10000;
-
-
-
 // Dont Change Server Link
 const char* serverName = "https://iotpush.app/api/notif";
 
 // Post Array Init DONT TOUCH
 char post[500];
-
-// PIR 
-//const int PIN_TO_SENSOR = 22;   // the pin that OUTPUT pin of sensor is connected to
-const int PIN_TO_SENSOR = 5;   // the pin that OUTPUT pin of sensor is connected to
 
 int pinStateCurrent   = LOW; // current state of pin
 int pinStatePrevious  = LOW; // previous state of pin
@@ -102,23 +91,9 @@ void setup() {
 }
 
 void loop() {
-  //Send an HTTP POST request every 10 minutes
-//   if ((millis() - lastTime) > timerDelay) {
-
-//     // Call Static will send everything you entered in the top of the file
-//     sendStatic();
-
-//     // Call Custom Function to send Custom sensor data
-//     // sendCustom("TITLE","INFORMATION","COLOR","SEND PHONE NOTIFICATION");
-//     sendCustom("Temp Sensor #1","Current Temprature -5c","blue","true");
-    
-//     // Reset Timer
-//     lastTime = millis();
-//   }
 
   pinStatePrevious = pinStateCurrent; // store old state
   pinStateCurrent = digitalRead(PIN_TO_SENSOR);   // read new state
-//  Serial.println(pinStateCurrent);
   if (pinStatePrevious == LOW && pinStateCurrent == HIGH) {   // pin state change: LOW -> HIGH
     Serial.println("Motion detected!");
     sendCustom("Motion Sensor","Living Sensor Motion Detected","red","true");
