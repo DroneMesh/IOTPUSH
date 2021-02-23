@@ -119,12 +119,14 @@ void loop() {
 //  Serial.println(pinStateCurrent);
   if (pinStatePrevious == LOW && pinStateCurrent == HIGH) {   // pin state change: LOW -> HIGH
     Serial.println("Motion detected!");
+    // Here We Send the Notificaiton  with true to notify our phone with push notification
     sendCustom("Motion Sensor","Living Sensor Motion Detected","red","true");
   }
   else
   if (pinStatePrevious == HIGH && pinStateCurrent == LOW) {   // pin state change: HIGH -> LOW
     Serial.println("Motion stopped!");
-    sendCustom("Motion Sensor","Living Sensor Motion Stoped","blue","true");
+    // Here we also send notification however with false so we dont get the push notification to our phone
+    sendCustom("Motion Sensor","Living Sensor Motion Stoped","blue","false");
   }
 
 
