@@ -33,7 +33,7 @@ const char* password = "YOUR WIFI PASSWORD";
 
 
 // Place your Token Here Found in Android Or Iphone and or WebPanel https://iotpush.app/get-token
-char token[] = "5f6819e8023170a997bca324ff7600e7b1acjkkf";
+char token[] = "5f1ed5ee6bfca8893b21f5073f3169bbd6dc089b";
 
 // ------  Static Request -------
 // Title of Notification EX: Motion Sensor
@@ -164,7 +164,6 @@ void sendStatic(){
       strcat(post, group);
       
 
-     
       // Send HTTP POST request
       int httpResponseCode = http.POST(post);
 
