@@ -31,8 +31,9 @@
 const char* ssid = "YOUR WIFI ROUTER NAME";
 const char* password = "YOUR WIFI PASSWORD";
 
+
 // Place your Token Here Found in Android Or Iphone and or WebPanel https://iotpush.app/get-token
-char token[] = "a8d4cffa289b8979f51f02936acbed49595f26";
+char token[] = "5f6819e8023170a997bca324ff7600e7b1acjkkf";
 
 // ------  Static Request -------
 // Title of Notification EX: Motion Sensor
@@ -77,8 +78,13 @@ const char* serverName = "https://iotpush.app/api/notif";
 // Post Array Init DONT TOUCH
 char post[500];
 
+// PIR 
+const int PIN_TO_SENSOR = 22;   // the pin that OUTPUT pin of sensor is connected to
+int pinStateCurrent   = LOW; // current state of pin
+int pinStatePrevious  = LOW; // previous state of pin
 
 void setup() {
+    pinMode(PIN_TO_SENSOR, INPUT);
   // Don't Touch This Area Unless You Need To
   Serial.begin(115200);
   WiFi.begin(ssid, password);
@@ -95,18 +101,34 @@ void setup() {
 
 void loop() {
   //Send an HTTP POST request every 10 minutes
-  if ((millis() - lastTime) > timerDelay) {
+//   if ((millis() - lastTime) > timerDelay) {
 
-    // Call Static will send everything you entered in the top of the file
-    sendStatic();
+//     // Call Static will send everything you entered in the top of the file
+//     sendStatic();
 
-    // Call Custom Function to send Custom sensor data
-    // sendCustom("TITLE","INFORMATION","COLOR","SEND PHONE NOTIFICATION");
-    sendCustom("Temp Sensor #1","Current Temprature -5c","blue","true");
+//     // Call Custom Function to send Custom sensor data
+//     // sendCustom("TITLE","INFORMATION","COLOR","SEND PHONE NOTIFICATION");
+//     sendCustom("Temp Sensor #1","Current Temprature -5c","blue","true");
     
-    // Reset Timer
-    lastTime = millis();
+//     // Reset Timer
+//     lastTime = millis();
+//   }
+
+  pinStatePrevious = pinStateCurrent; // store old state
+  pinStateCurrent = digitalRead(PIN_TO_SENSOR);   // read new state
+//  Serial.println(pinStateCurrent);
+  if (pinStatePrevious == LOW && pinStateCurrent == HIGH) {   // pin state change: LOW -> HIGH
+    Serial.println("Motion detected!");
+    sendCustom("Motion Sensor","Living Sensor Motion Detected","red","true");
   }
+  else
+  if (pinStatePrevious == HIGH && pinStateCurrent == LOW) {   // pin state change: HIGH -> LOW
+    Serial.println("Motion stopped!");
+    sendCustom("Motion Sensor","Living Sensor Motion Stoped","blue","true");
+  }
+
+
+
 }
 
 void sendStatic(){
