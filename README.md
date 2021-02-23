@@ -31,7 +31,7 @@ Everything is sent over SSL Protocol.
 2. If you would like to receive the notifiations on your phone you must have the app installed and be logged in to your account
 
 # Grab Your Token
-### You can get your token wither from the Web Panel or Phone App
+### You can get your token from the Web Panel or Phone App
 
 ### Android & IOS Token will be available on Home Screen
 
