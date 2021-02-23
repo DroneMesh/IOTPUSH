@@ -1,4 +1,5 @@
 # IOT PUSH Documentation
+## ESP32 & ESP8266
 This System is designed to send push notifications to your IOS and or Android Device. It also saves all your notifications to view whenever you would like. You can view your notifications from either the web panel and or your phone.
 1. [Android APP LINK]
 2. [IOS APP LINK]
