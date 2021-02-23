@@ -9,7 +9,7 @@ This System is designed to send push notifications to your IOS and or Android De
 Everything is sent over SSL Protocol.
 # Screenshots Web Panel
 <p float="left">
-<img src="./images/admin_new.PNG" alt="My cool logo" width="250"/>
+<img src="./images/admin_new.PNG" alt="My cool logo" width="230"/>
 <img src="./images/login.PNG" alt="My cool logo" width="200"/>
 </p>
 
@@ -33,7 +33,7 @@ Everything is sent over SSL Protocol.
 
 ### Android & IOS Token will be available on Home Screen
 
-<img src="./images/setup.jpg" alt="My cool logo" width="350"/>
+<img src="./images/setup11.jpg" alt="My cool logo" width="350"/>
 
 ### Web Admin Panel
 Admin Panel Token will be located [HERE](https://iotpush.app/get-token)
