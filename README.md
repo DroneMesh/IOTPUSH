@@ -4,8 +4,8 @@
 This System is designed to send push notifications to your IOS and or Android Device. It also saves all your notifications to view whenever you would like. You can view your notifications from either the web panel and or your phone.
 1. [Android APP LINK](https://github.com/DroneMesh/IOTPUSH) Waiting Playstore Reivew  ETA: Feb, 26 2021
    1. [You can download it from the Android_APK Folder](https://github.com/DroneMesh/IOTPUSH/tree/master/Android_APK)
-2. [IOS APP LINK](https://github.com/DroneMesh/IOTPUSH) Waiting Apple Store Reivew
-3. [WEB Admin Panel LINK](https://iotpush.app) ETA: Feb, 28 2021
+2. [IOS APP LINK](https://github.com/DroneMesh/IOTPUSH) Waiting Apple Store Reivew  ETA: Feb, 28 2021
+3. [WEB Admin Panel LINK](https://iotpush.app)
 
 Everything is sent over SSL Protocol.
 # Screenshots Web Panel
