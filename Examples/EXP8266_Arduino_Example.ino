@@ -73,7 +73,6 @@ unsigned long timerDelay = 10000;
 
 
 
-
 // Dont Change Server Link
 const char* serverName = "https://iotpush.app/api/notif";
 
