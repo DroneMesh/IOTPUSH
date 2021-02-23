@@ -2,7 +2,8 @@
 ## ESP32 & ESP8266 ---> Android or IOS
 ### All Code Examples Are Available
 This System is designed to send push notifications to your IOS and or Android Device. It also saves all your notifications to view whenever you would like. You can view your notifications from either the web panel and or your phone.
-1. [Android APP LINK] Waiting Playstore Reivew
+1. [Android APP LINK] Waiting Playstore Reivew 
+   1. You can download it from the Folder here meanwhile
 2. [IOS APP LINK] Waiting Apple Store Reivew
 3. [WEB Admin Panel LINK](https://iotpush.app)
 
