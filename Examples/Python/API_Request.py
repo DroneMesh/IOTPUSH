@@ -34,3 +34,10 @@ def sendPush(title,info,color,notify):
 
 sendPush('Motion Sensor','Living Room Motion Detected','blue','true')
 
+#  Its that simple I decided not to put print statements becuase I dont now if you will be running python2 or python3
+
+
+
+
+
+
