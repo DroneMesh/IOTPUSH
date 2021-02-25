@@ -22,6 +22,9 @@ Everything is sent over SSL Protocol.
 </p>
 
 
+## Video Tutorial
+[![IMAGE ALT TEXT](https://img.youtube.com/vi/crOqqagCQRg/0.jpg)](https://www.youtube.com/watch?v=crOqqagCQRg "Video Title")
+
 
 ## Getting Started
 
