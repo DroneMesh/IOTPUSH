@@ -31,6 +31,9 @@
 const char* ssid = "YOUR WIFI ROUTER NAME";
 const char* password = "YOUR WIFI PASSWORD";
 
+// Board Manager 
+//  https://dl.espressif.com/dl/package_esp32_index.json
+
 // Place your Token Here Found in Android Or Iphone and or WebPanel https://iotpush.app/get-token
 char token[] = "a8d4cffa289b8979f51f02936acbed49595f26";
 
