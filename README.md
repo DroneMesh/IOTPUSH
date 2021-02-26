@@ -1,5 +1,6 @@
-# #***  IMPORTANT NOTE ***
+# ***  IMPORTANT NOTE ***
 ## Please use the same login method on Web Panel & Application or your account will freeze and you must contact me to fix it.
+[Email Me Here to Fix with your Email address](admin@iotpush.app)
 
 # IOT PUSH Documentation
 ## ESP32 & ESP8266 ---> Android or IOS
