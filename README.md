@@ -2,8 +2,8 @@
 ## ESP32 & ESP8266 ---> Android or IOS
 ### All Code Examples Are Available
 This System is designed to send push notifications to your IOS and or Android Device. It also saves all your notifications to view whenever you would like. You can view your notifications from either the web panel and or your phone.
-1. [Android APP LINK](https://play.google.com/store/apps/details?id=com.iot.esp)
-2. [IOS APP LINK](https://github.com/DroneMesh/IOTPUSH) Waiting Apple Store Reivew  ETA: Feb, 28 2021
+1. [Android APP LINK](https://play.google.com/store/apps/details?id=com.iot.esp) ON THE PLAYSTORE
+2. [IOS APP LINK](https://apps.apple.com/us/app/iotpush/id1555250298) ON THE APP STORE
 3. [WEB Admin Panel LINK](https://iotpush.app)
 
 Everything is sent over SSL Protocol.
