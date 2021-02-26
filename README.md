@@ -2,7 +2,7 @@
 ## Please use the same login method on Web Panel & Application or your account will freeze and you must contact me to fix it.
 Email:  admin@iotpush.app
 
-Subject: Account Forzen
+Subject: Account Frozen
 
 body: Your Email Address
 # IOT PUSH Documentation
