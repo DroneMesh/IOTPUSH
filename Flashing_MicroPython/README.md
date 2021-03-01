@@ -31,4 +31,4 @@ esptool --port com8 --baud 460800 write_flash --flash_size=detect 0 esp8266.bin
 ```
 
 # Video Tutorial
-[VIDEO TUTORIAL LINK HERE]()
+[VIDEO TUTORIAL LINK HERE](https://youtu.be/1R_1n0vhRxI)
