@@ -13,3 +13,5 @@ body: Your Email Address
 1. [Here is how to get your token](https://github.com/DroneMesh/IOTPUSH)
 
 # Create Control ID
+1. [Create Control Here](https://iotpush.app/create-sensor-control)
+2. Save it somewhere for now make to replace space with underscore
