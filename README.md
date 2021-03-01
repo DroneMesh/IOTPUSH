@@ -53,3 +53,5 @@ Admin Panel Token will be located [HERE](https://iotpush.app/get-token)
 # How To Send The Notification ESP32 & ESP8266
 ## [Sending Notification Code and Documentaion Found HERE](https://github.com/DroneMesh/IOTPUSH/tree/master/Notification_Eaxmples)
 
+# Getting Live Sensor Data and Controlling Your Device Remotely 
+## [Example Codes and Documentation Found Here](https://github.com/DroneMesh/IOTPUSH/tree/master/MicroPython)
