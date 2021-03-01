@@ -1,12 +1,11 @@
 # ESP8266 Tank Project V1
 
-# *** IMPORTANT NOTE ***
-## Please use the same login method on Web Panel & Application or your account will freeze and you must contact me to fix it.
-Email:  admin@iotpush.app
-
-Subject: Account Frozen
-
-body: Your Email Address
+# Parts List
+1. [Tank](http://bit.ly/3dT0ghK)
+2. [ESP8266](http://bit.ly/3rdAgS0)
+3. [Motor Driver](http://bit.ly/2ZY0zQs)
+4. [2s Battery](http://bit.ly/3r2qfau)
+5. [Batery Connector](http://bit.ly/3uDMR3m)
 
 
 # Grab Your Token
