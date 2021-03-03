@@ -1,6 +1,7 @@
-# Documenation Found In Project Folder's
+# Choose Your MCU
 
-## Projects will be released on channel first then added here.
-## [CHANNEL_LINK](http://youtube.com/dronemesh)
+## [ESP32 Projects](https://github.com/DroneMesh/IOTPUSH/tree/master/MicroPython_Projects/ESP32)
+## [ESP8266 Projects](https://github.com/DroneMesh/IOTPUSH/tree/master/MicroPython_Projects/ESP8266)
 
-
+#
+### [By DroneMesh](http://youtube.com/dronemesh)
