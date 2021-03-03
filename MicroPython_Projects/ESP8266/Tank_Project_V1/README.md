@@ -23,3 +23,5 @@
 <img src="../../../images/rc_joystick.png" alt="My cool logo" width="150"/>
 
 # Now We will install the code on the ESP8266
+
+[VIDEO WILL BE OUT SOON ON THE CHANNEL](http://youtube.com/dronemesh)
