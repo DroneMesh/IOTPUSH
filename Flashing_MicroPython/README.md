@@ -30,5 +30,8 @@ esptool --port com8 erase_flash
 esptool --port com8 --baud 460800 write_flash --flash_size=detect 0 esp8266.bin
 ```
 
+# *** IMPORTANT STEP  ***
+## If Arduino serial monitor writing wierd characters then change the bottom dropdown box to 1152000
+
 # Video Tutorial
 [VIDEO TUTORIAL LINK HERE](https://youtu.be/1R_1n0vhRxI)
