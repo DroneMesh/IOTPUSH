@@ -1,9 +1,10 @@
 from machine import Pin
-import wificonnect
+# import wificonnect
 import uwebsockets.client
 from machine import Pin, PWM
+import network
 import json
-
+import time
 
 # Wifi Router Information
 ssid = "ROUTER_NAME_HERE"
@@ -12,15 +13,30 @@ password =  "PASSWORD_HERE"
 
 # Your Token Found Here 
 # https://iotpush.app/get-token
-token = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
+token = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
 
 
 #  You must create an ID here and Place it Below Spaces are Replaced with
 # https://iotpush.app/create-sensor-control
 id = 'Tank'
 
-#  This is to Connect to Wifi
-wificonnect.connect(ssid,password)
+
+
+#  Wifi Connect Part (Leave This Alone)
+station = network.WLAN(network.STA_IF)
+if station.isconnected() == True:
+    print("Already connected")
+station.active(True)
+station.connect(ssid, password)
+while station.isconnected() == False:
+    pass
+print("Connection successful")
+print(station.ifconfig())
+
+
+
+
+
 
 
 # A Function To Enable Calling The Motors Easier
@@ -108,8 +124,9 @@ def left():
 
 
 # Here we connect to the server and receive the commands
-def receive():
-    URL = "ws://iotpush.app:8888/control/"+token+'/'+id.replace(" ",'_')
+def receive(token,id):
+    URL = "ws://iotpush.app:8888/control/"+token+'/'+id
+    print(URL)
     id = id.replace(' ','_')
     print('Connected')
     with uwebsockets.client.connect(URL) as websocket:
@@ -121,9 +138,9 @@ def receive():
                     forward()
                 elif text_data_json['message'] == '2':
                     backward()
-                elif text_data_json['message'] == '3':
-                    left()
                 elif text_data_json['message'] == '4':
+                    left()
+                elif text_data_json['message'] == '3':
                     right()
                 elif text_data_json['message'] == '0':
                     stop()                
@@ -134,9 +151,10 @@ def receive():
 if __name__ == '__main__':
     stop()
     while True:
+        time.sleep(1)
         try:
             print('Connecting')
-            receive()
+            receive(token,id)
         except: 
             print('Lost Connection')
             stop()
