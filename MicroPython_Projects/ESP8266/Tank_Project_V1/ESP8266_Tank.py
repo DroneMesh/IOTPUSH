@@ -6,6 +6,17 @@ import network
 import json
 import time
 
+# Flash Micropython On your ESP8266
+# [Video Tutorial Here] https://www.youtube.com/watch?v=1R_1n0vhRxI
+
+#Product Links
+# 1. [Tank] http://bit.ly/3dT0ghK
+# 2. [ESP8266] http://bit.ly/3rdAgS0
+# 3. [Motor Driver] http://bit.ly/2ZY0zQs
+# 4. [2s Battery] http://bit.ly/3r2qfau
+# 5. [Batery Connector] http://bit.ly/3uDMR3m
+
+
 # Wifi Router Information
 ssid = "ROUTER_NAME_HERE"
 password =  "PASSWORD_HERE"
