@@ -32,13 +32,13 @@ import time
 
 
 # Wifi Router Information
-ssid = "UPC176A7E8"
-password =  "z64bAdambafm"
+ssid = "ROUTER_NAME_HERE"
+password =  "PASSWORD_HERE"
 
 
 # Your Token Found Here 
 # https://iotpush.app/get-token
-token = '77ae4d9e33527a4b3bdbd0d686d479e95af102af'
+token = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
 
 
 #  You must create an ID here and Place it Below Spaces are Replaced with
