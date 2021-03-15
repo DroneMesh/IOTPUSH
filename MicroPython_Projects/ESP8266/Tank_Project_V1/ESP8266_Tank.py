@@ -16,12 +16,13 @@ import time
 # ampy.exe --port com8 put .\MicroPython_Projects\ESP8266\Tank_Project_V1\uwebsockets\client.py uwebsockets/client.py
 # ampy.exe --port com8 put .\MicroPython_Projects\ESP8266\Tank_Project_V1\uwebsockets\protocol.py uwebsockets/protocol.py
 
-# # Uploading main.py when finished editing with your config
-# ampy.exe --port com8 put .\MicroPython_Projects\ESP8266\Tank_Project_V1\ESP8266_Tank.py  main.py
+
 
 # DEBUG
 # ampy.exe --port com8 run .\MicroPython_Projects\ESP8266\Tank_Project_V1\ESP8266_Tank.py 
 
+# # FLASHING COMMAND
+# ampy.exe --port com8 put .\MicroPython_Projects\ESP8266\Tank_Project_V1\ESP8266_Tank.py  main.py
 
 #Product Links
 # 1. [Tank] http://bit.ly/3dT0ghK
