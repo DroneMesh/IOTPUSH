@@ -1,4 +1,14 @@
 # ***  IMPORTANT NOTE ***
+
+## Error 401 Issues
+[Join the discord for help](https://discord.gg/YzaXAT9RfA)
+
+https://discord.gg/YzaXAT9RfA
+
+<br>
+<br>
+<br>
+
 ## Please use the same login method on Web Panel & Application or your account will freeze and you must contact me to fix it.
 Email:  admin@iotpush.app
 
