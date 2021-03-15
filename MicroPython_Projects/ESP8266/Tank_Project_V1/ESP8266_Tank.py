@@ -19,6 +19,9 @@ import time
 # # Uploading main.py when finished editing with your config
 # ampy.exe --port com8 put .\MicroPython_Projects\ESP8266\Tank_Project_V1\ESP8266_Tank.py  main.py
 
+# DEBUG
+# ampy.exe --port com8 run .\MicroPython_Projects\ESP8266\Tank_Project_V1\ESP8266_Tank.py 
+
 
 #Product Links
 # 1. [Tank] http://bit.ly/3dT0ghK
@@ -29,13 +32,13 @@ import time
 
 
 # Wifi Router Information
-ssid = "ROUTER_NAME_HERE"
-password =  "PASSWORD_HERE"
+ssid = "UPC176A7E8"
+password =  "z64bAdambafm"
 
 
 # Your Token Found Here 
 # https://iotpush.app/get-token
-token = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
+token = '77ae4d9e33527a4b3bdbd0d686d479e95af102af'
 
 
 #  You must create an ID here and Place it Below Spaces are Replaced with
@@ -157,14 +160,19 @@ def receive(token,id):
             text_data_json = json.loads(command)
             if text_data_json['id'] == id:
                 if text_data_json['message'] == '1':
+                    print('Forward')
                     forward()
                 elif text_data_json['message'] == '2':
+                    print('Back')
                     backward()
                 elif text_data_json['message'] == '4':
+                    print('Left')
                     left()
                 elif text_data_json['message'] == '3':
+                    print('Right')
                     right()
                 elif text_data_json['message'] == '0':
+                    print('STOP')
                     stop()                
 
 
