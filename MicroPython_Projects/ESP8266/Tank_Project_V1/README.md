@@ -5,9 +5,16 @@
 
 https://discord.gg/YzaXAT9RfA
 
+1. [Android APP LINK](https://play.google.com/store/apps/details?id=com.iot.esp) ON THE PLAYSTORE
+2. [IOS APP LINK](https://apps.apple.com/us/app/iotpush/id1555250298) ON THE APP STORE
+3. [WEB Admin Panel LINK](https://iotpush.app)
+
+
 <br>
 <br>
 <br>
+
+
 
 # Parts List
 1. [Tank](http://bit.ly/3dT0ghK)
