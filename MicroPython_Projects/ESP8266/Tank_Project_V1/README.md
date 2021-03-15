@@ -1,5 +1,14 @@
 # ESP8266 Tank Project V1 // Cloud Control 
 
+## Need Help Im Here
+[Join the discord for help](https://discord.gg/YzaXAT9RfA)
+
+https://discord.gg/YzaXAT9RfA
+
+<br>
+<br>
+<br>
+
 # Parts List
 1. [Tank](http://bit.ly/3dT0ghK)
 2. [ESP8266](http://bit.ly/3rdAgS0)
