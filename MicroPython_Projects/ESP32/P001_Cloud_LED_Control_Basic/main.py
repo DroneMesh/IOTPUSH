@@ -3,7 +3,6 @@
 import network
 from machine import Pin
 import uwebsockets.client
-from machine import Pin, PWM
 import json 
 import time
 
@@ -14,11 +13,13 @@ password =  "YOUR_PASSWORD"
 
 # Token HERE 
 #  You can get it from here https://iotpush.app/get-token
-token = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
+token = '77ae4d9e33527a4b3bdbd0d686d479e95af102af'
 
 # ID You Created Here 
 # https://iotpush.app/create-sensor-switch
 id = 'LED'
+
+
 
 # Pin we want to control is pin 2 and se set it as an OUTPUT to Turn on the Built in LED
 led = Pin(2, Pin.OUT)

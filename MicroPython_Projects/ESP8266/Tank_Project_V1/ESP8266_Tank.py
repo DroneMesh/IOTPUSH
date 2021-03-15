@@ -9,6 +9,17 @@ import time
 # Flash Micropython On your ESP8266
 # [Video Tutorial Here] https://www.youtube.com/watch?v=1R_1n0vhRxI
 
+# # # Create Directory In ESP called uwebsockets
+# ampy.exe --port com8 mkdir uwebsockets
+
+# # Upload the files to ESP for websocket connections
+# ampy.exe --port com8 put .\uwebsockets\client.py uwebsockets/client.py
+# ampy.exe --port com8 put .\uwebsockets\protocol.py uwebsockets/protocol.py
+
+# # Uploading main.py when finished editing with your config
+# ampy.exe --port com8 put .\main.py main.py
+
+
 #Product Links
 # 1. [Tank] http://bit.ly/3dT0ghK
 # 2. [ESP8266] http://bit.ly/3rdAgS0
