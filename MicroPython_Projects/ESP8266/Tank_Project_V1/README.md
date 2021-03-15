@@ -7,6 +7,8 @@
 4. [2s Battery](http://bit.ly/3r2qfau)
 5. [Batery Connector](http://bit.ly/3uDMR3m)
 
+# Flash Micropython On your ESP8266
+1. [Video Tutorial Here](https://www.youtube.com/watch?v=1R_1n0vhRxI)
 
 # Grab Your Token
 1. [Here is how to get your token](https://github.com/DroneMesh/IOTPUSH)
